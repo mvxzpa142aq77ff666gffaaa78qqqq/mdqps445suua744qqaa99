@@ -10,7 +10,7 @@ function NosotrosCartd() {
         <>
             <div className="nosotrosCard">
                 <AnimationOnScroll animateIn="animate__shakeY" duration={20} initiallyVisible={true} className="nosotrosCardContainerImg">
-                    <LazyLoadImage className="nosotrosCardImg1" effect="black-and-white"
+                    <LazyLoadImage className="nosotrosCardImg1" effect="blur"
                         src={"https://res.cloudinary.com/mumbex/image/upload/v1660495101/mumbex-banner_eldyjj.png"} alt="" />
                 </AnimationOnScroll>
                 <div className="nosotrosCardText">
@@ -20,7 +20,7 @@ function NosotrosCartd() {
                 </div>
 
                 <AnimationOnScroll animateIn="animate__shakeY" duration={30} initiallyVisible={true} className="nosotrosCardContainerImg">
-                    <LazyLoadImage className="nosotrosCardImg2" effect="black-and-white"
+                    <LazyLoadImage className="nosotrosCardImg2" effect="blur"
                         src={"https://res.cloudinary.com/mumbex/image/upload/v1660683238/aa_zmw1x9.png"} alt="" />
                 </AnimationOnScroll>
 

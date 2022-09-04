@@ -1,0 +1,132 @@
+.body-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    /*background-color: #1B1B1D;*/
+    background-color: #020202;
+}
+
+.body-cards-container-resp {
+    max-width: 1300px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: 48%;
+    height: 250px;
+    /* background-color: #3C3C3C;  */
+    background-color: #272727;
+    /* background-color: #303846; */
+    display: flex;
+    border-radius: 10px;
+    /* margin-top: -50px;  */
+    margin-bottom: 30px;
+
+}
+
+.body-cards-container-resp {
+    width: 100%;
+}
+
+
+
+.card-text-button-container {
+    width: 48%;
+    padding-top: 10px;
+    padding-left: 10px;
+    /*background-color: #838181;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text {
+    height: 150px;
+    overflow: hidden;
+}
+
+
+.card-text-button-container .btn {
+    background-color: #67D6ED;
+    border-color: #67D6ED;
+    color: #000000;
+    font-weight: 700;
+}
+
+.card-text h5,
+.card-text p {
+    color: #cfcfcf;
+}
+
+.card-image-container {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenCard {
+    object-fit: contain;
+    width: 55%;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1150px) {
+    .card-text {
+        height: 165px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .card-text {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .card-container {
+        width: 98%;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        padding-block: 5px;
+    }
+
+    .imagenCard {
+        object-fit: contain;
+        width: 150px;
+        margin-left: auto;
+    }
+
+    .card-text-button-container {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 0px;
+        /*background-color: #838181;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-text {
+        height:auto;
+    }
+
+
+    .card-text-button-container .btn {
+        width: auto;
+    }
+
+    .card-text h5 {
+        font-size: 21px;
+    }
+
+    .card-text p {
+        font-size: 18px;
+    }
+}

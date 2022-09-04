@@ -1,0 +1,22 @@
+.nosotrosContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://res.cloudinary.com/mumbex/image/upload/v1660494919/fondo_mq1muz.jpg");
+    
+}
+
+.nosotrosContainerResp{
+    max-width: 1200px;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+@media  screen and (max-width:1210px){
+    .nosotrosContainerResp{
+       width: 99%;
+    }
+    
+}

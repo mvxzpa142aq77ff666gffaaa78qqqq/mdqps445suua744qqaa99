@@ -1,0 +1,107 @@
+
+.containerServicios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #dbdbdb;
+    background-image: url("https://res.cloudinary.com/mumbex/image/upload/v1660494919/fondo_mq1muz.jpg");
+}
+.containerServiciosResp{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-top:40px;
+    
+
+}
+.containerServiciosList{
+    width: 70%;
+    display: flex;
+}
+.containerServiciosImage{
+    width: 450px;
+    display: flex;
+    align-items: flex-start;
+}
+.derviciosImageRigth{
+    width: 100%;
+    position: sticky;
+    top: 50px;
+    margin-top: 100px;
+}
+.derviciosImageRigth img{
+    width: 80%;
+    object-fit: cover;
+    background-color: #181818;
+    
+}
+
+
+@media (max-width: 1250px) {
+
+    .containerServiciosImage{
+        width: 450px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .derviciosImageRigth{
+        width: 100%;
+        position: sticky;
+        top: 50px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .derviciosImageRigth img{
+        width: 80%;
+        object-fit: cover;
+        background-color: #181818;
+        
+    }
+    
+    
+}
+@media (max-width: 900px) {
+
+    .containerServiciosResp{
+        width: 100%;
+        flex-direction: column-reverse;
+        
+    
+    }
+    .containerServiciosList{
+        width: 100%;
+    }
+    .containerServiciosImage{
+        width: 100%;
+    }
+    .derviciosImageRigth{
+        display: none;
+    }
+
+    .derviciosImageRigth img{
+        width: 40%;
+        
+    }
+    
+}
+
+@media (max-width: 750px) {
+
+    .containerServiciosList{
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 550px) {
+
+    .derviciosImageRigth img{
+        width: 60%;
+        
+    }
+    
+}

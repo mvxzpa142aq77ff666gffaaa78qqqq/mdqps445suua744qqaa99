@@ -1,0 +1,43 @@
+.productosConatainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://res.cloudinary.com/mumbex/image/upload/v1660494919/fondo_mq1muz.jpg");
+    
+}
+.productosConatainerResp{
+    max-width: 1200px;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.productosTitle{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.productosTitle h4{
+    font-size: 22px !important;
+    color: rgb(248, 221, 147);
+    font-weight: 600;
+}
+.productosTextDescrip {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.productosTextDescrip p{
+    font-size: 18px !important;
+    font-weight: 400;
+    color: rgb(218, 218, 218);  
+    background-color: #181818;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}

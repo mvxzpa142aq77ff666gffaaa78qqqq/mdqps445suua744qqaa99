@@ -66,7 +66,7 @@ function BodyCards() {
 
 
 
-        <div className='card-container'>
+        <div className='card-container' style={{display:"none"}}>
           <div className='card-text-button-container'>
             <div className='card-text'>
               <h5>Nuestro blog </h5>
@@ -91,7 +91,7 @@ function BodyCards() {
 
 
 
-        <div className='card-container' style={{display:"none"}}>
+        <div className='card-container' >
           <div className='card-text-button-container'>
             <div className='card-text'>
               <h5>Sobre nosotros</h5>

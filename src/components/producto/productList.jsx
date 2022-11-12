@@ -11,7 +11,7 @@ function ProductList() {
         <div>
 
             <AnimationOnScroll animateIn="animate__fadeInLeftBig" initiallyVisible={true} className='productList'>
-                <div className='productListTitleProduct'><Link to={"#"} onClick={() => { window.open("https://semu-stores.herokuapp.com/#/") }}>Mercado semu</Link></div>
+                <div className='productListTitleProduct'><Link to={"#"} onClick={() => { window.open("https://mercadosemu.com/#/") }}>Mercado semu</Link></div>
                 <div className='productListImgs'>
 
                     <div className='productListImgTele'>
@@ -19,7 +19,7 @@ function ProductList() {
                             className="imagenProductosMobil"
                             src={"https://res.cloudinary.com/mumbex/image/upload/v1660494934/producto_isxht1.png"} 
                         /> */}
-                        <Link to={"#!"} onClick={() => { window.open("https://semu-stores.herokuapp.com/#/") }}>
+                        <Link to={"#!"} onClick={() => { window.open("https://mercadosemu.com/#/") }}>
                             <LazyLoadImage
                                 className="imagenProductosMobil"
                                 effect="blur"

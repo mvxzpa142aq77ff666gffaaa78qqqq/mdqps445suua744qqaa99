@@ -9,7 +9,8 @@
     margin-bottom: 20px;
 }
 .productListTitleProduct{
-    width: 100%;text-align: center;
+    width: 100%;
+    text-align: center;
     padding-top: 10px;
     padding-bottom:30px ;
 }
@@ -23,6 +24,7 @@
 .productListImgs{
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 .productListImgTele{
     width: 70%;
@@ -36,6 +38,7 @@
     width: 30%;
     display: flex;
     justify-content: right;
+    display: none;
 }
 .productListImgMobil img{
     width: 80%;
@@ -45,6 +48,11 @@
 @media  screen and (max-width:1200px){
     .productListImgMobil img{
         margin-left: 10px;
+    }
+}
+@media  screen and (max-width:1000px){
+    .productListImgTele{
+        width: 100%;
     }
 }
 @media  screen and (max-width:700px){

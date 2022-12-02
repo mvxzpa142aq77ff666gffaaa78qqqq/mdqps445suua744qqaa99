@@ -11,7 +11,7 @@ function ProductList() {
         <div>
 
             <AnimationOnScroll animateIn="animate__fadeInLeftBig" initiallyVisible={true} className='productList'>
-                <div className='productListTitleProduct'><Link to={"#"} onClick={() => { window.open("https://mercadosemu.com/#/") }}>Mercado semu</Link></div>
+                <div className='productListTitleProduct'><Link to={"#"} onClick={() => { window.open("https://mercadosemu.com/#/") }}>mercadosemu.com</Link></div>
                 <div className='productListImgs'>
 
                     <div className='productListImgTele'>
@@ -27,23 +27,19 @@ function ProductList() {
                             />
                         </Link>
                     </div>
-                    <div className='productListImgMobil'>
-                        <Link to={"#"} onClick={() => { window.open("https://semu-stores.herokuapp.com/#/") }}>
+                    {/* <div className='productListImgMobil'>
+                        <Link to={"#"} onClick={() => { window.open("https://mercadosemu.com/#/") }}>
                             <img
                                 className="imagenProductosMobil"
                                 src={"https://res.cloudinary.com/mumbex/image/upload/v1660494915/producto2_twq5co.png"}
                             />
                         </Link>
-                        {/* <LazyLoadImage
-                            className="imagenProductosMobil"
-                            effect="blur"
-                            src={"https://res.cloudinary.com/mumbex/image/upload/v1660494915/producto2_twq5co.png"} 
-                        /> */}
-                    </div>
+                        
+                    </div> */}
                 </div>
             </AnimationOnScroll>
             <AnimationOnScroll animateIn="animate__fadeInLeftBig" initiallyVisible={true} className='productList'>
-                <div className='productListTitleProduct'><Link to={"#"} onClick={() => { alert("disponible a partir de 20 diciembre 2022") }}>selectividad.com</Link></div>
+                <div className='productListTitleProduct'><Link to={"#"} onClick={() => { alert("disponible a partir de 20 diciembre 2022") }}>selectividad.site</Link></div>
                 <div className='productListImgs'>
 
                     <div className='productListImgTele'>
@@ -51,7 +47,7 @@ function ProductList() {
                             className="imagenProductosMobil"
                             src={"https://res.cloudinary.com/mumbex/image/upload/v1660494934/producto_isxht1.png"} 
                         /> */}
-                        <Link to={"#!"} onClick={() => { alert("disponible a partir de 20 diciembre 2022")  }}>
+                        <Link to={"#!"} onClick={() => { window.open("https://selectividad.site") }} >
                             <LazyLoadImage
                                 className="imagenProductosMobil"
                                 effect="blur"
@@ -59,15 +55,15 @@ function ProductList() {
                             />
                         </Link>
                     </div>
-                    <div className='productListImgMobil'>
-                        <Link to={"#"} onClick={() => { alert("disponible a partir de 20 diciembre 2022") }}>
+                    {/* <div className='productListImgMobil'>
+                        <Link to={"https://selectividad.site"} >
                             <img
                                 className="imagenProductosMobil"
                                 src={"https://res.cloudinary.com/mumbex/image/upload/v1664731651/bacselectMobil_1_fve69s.png"}
                             />
                         </Link>
                         
-                    </div> 
+                    </div>  */}
                 </div>
             </AnimationOnScroll>
 

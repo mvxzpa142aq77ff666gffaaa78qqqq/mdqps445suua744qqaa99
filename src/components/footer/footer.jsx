@@ -44,7 +44,8 @@ const Footer = () => {
                         <div className="redesSociales">
                             <Link className="redes-items" to="/"><AiFillYoutube /></Link>
                             <Link className="redes-items" to="/"><AiFillInstagram /></Link>
-                            <Link className="redes-items" to="/"><AiFillLinkedin /></Link>
+                            <Link className="redes-items" to="/"><AiFillInstagram /></Link>
+
                         </div>
                     </div> 
                     }
